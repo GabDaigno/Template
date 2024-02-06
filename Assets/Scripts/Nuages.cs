@@ -43,7 +43,7 @@ public class Nuages : MonoBehaviour
         //-----------------------------------------------ca sert a 
 
 
-    transform.Translate(Vector3.forward);
+    transform.Translate(Vector3.right * _vitesse * Time.deltaTime);     // Vexteurs4(1,0,0);
 
     }
 
