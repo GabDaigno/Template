@@ -23,7 +23,7 @@ public class Aigle : MonoBehaviour
 
     void BougeAigle(){
 
-        _rb.velocity = Vector3.forward;
+        _rb.velocity = Vector3.forward * -1;
     }
 
 }
